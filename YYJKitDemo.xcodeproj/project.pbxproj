@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		413DE36824EFC95E00FEDA08 /* NSArray+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DE36724EFC95E00FEDA08 /* NSArray+YYJ.m */; };
 		413DE36B24EFC97100FEDA08 /* NSDictionary+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DE36A24EFC97100FEDA08 /* NSDictionary+YYJ.m */; };
+		413DE36E24EFCEEA00FEDA08 /* UILabel+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DE36D24EFCEEA00FEDA08 /* UILabel+YYJ.m */; };
 		416BC7A224EFAFCA00AECE99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7A124EFAFCA00AECE99 /* AppDelegate.m */; };
 		416BC7A524EFAFCA00AECE99 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7A424EFAFCA00AECE99 /* SceneDelegate.m */; };
 		416BC7A824EFAFCA00AECE99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7A724EFAFCA00AECE99 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 		413DE36724EFC95E00FEDA08 /* NSArray+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YYJ.m"; sourceTree = "<group>"; };
 		413DE36924EFC97100FEDA08 /* NSDictionary+YYJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YYJ.h"; sourceTree = "<group>"; };
 		413DE36A24EFC97100FEDA08 /* NSDictionary+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YYJ.m"; sourceTree = "<group>"; };
+		413DE36C24EFCEEA00FEDA08 /* UILabel+YYJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YYJ.h"; sourceTree = "<group>"; };
+		413DE36D24EFCEEA00FEDA08 /* UILabel+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YYJ.m"; sourceTree = "<group>"; };
 		416BC79D24EFAFCA00AECE99 /* YYJKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYJKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		416BC7A024EFAFCA00AECE99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		416BC7A124EFAFCA00AECE99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				413DE36724EFC95E00FEDA08 /* NSArray+YYJ.m */,
 				413DE36924EFC97100FEDA08 /* NSDictionary+YYJ.h */,
 				413DE36A24EFC97100FEDA08 /* NSDictionary+YYJ.m */,
+				413DE36C24EFCEEA00FEDA08 /* UILabel+YYJ.h */,
+				413DE36D24EFCEEA00FEDA08 /* UILabel+YYJ.m */,
 			);
 			path = YYJKit;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				413DE36B24EFC97100FEDA08 /* NSDictionary+YYJ.m in Sources */,
 				416BC7A224EFAFCA00AECE99 /* AppDelegate.m in Sources */,
 				416BC7B324EFAFCA00AECE99 /* main.m in Sources */,
+				413DE36E24EFCEEA00FEDA08 /* UILabel+YYJ.m in Sources */,
 				413DE36824EFC95E00FEDA08 /* NSArray+YYJ.m in Sources */,
 				416BC7A524EFAFCA00AECE99 /* SceneDelegate.m in Sources */,
 			);
