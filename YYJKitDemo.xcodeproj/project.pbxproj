@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413DE36524EFC1B600FEDA08 /* NSString+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DE36424EFC1B600FEDA08 /* NSString+YYJ.m */; };
 		416BC7A224EFAFCA00AECE99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7A124EFAFCA00AECE99 /* AppDelegate.m */; };
 		416BC7A524EFAFCA00AECE99 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7A424EFAFCA00AECE99 /* SceneDelegate.m */; };
 		416BC7A824EFAFCA00AECE99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7A724EFAFCA00AECE99 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		413DE36324EFC1B600FEDA08 /* NSString+YYJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YYJ.h"; sourceTree = "<group>"; };
+		413DE36424EFC1B600FEDA08 /* NSString+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYJ.m"; sourceTree = "<group>"; };
 		416BC79D24EFAFCA00AECE99 /* YYJKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYJKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		416BC7A024EFAFCA00AECE99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		416BC7A124EFAFCA00AECE99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 			children = (
 				416BC7D724EFB1D700AECE99 /* UIView+YYJ.h */,
 				416BC7D824EFB1D700AECE99 /* UIView+YYJ.m */,
+				413DE36324EFC1B600FEDA08 /* NSString+YYJ.h */,
+				413DE36424EFC1B600FEDA08 /* NSString+YYJ.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413DE36524EFC1B600FEDA08 /* NSString+YYJ.m in Sources */,
 				416BC7A824EFAFCA00AECE99 /* ViewController.m in Sources */,
 				416BC7A224EFAFCA00AECE99 /* AppDelegate.m in Sources */,
 				416BC7B324EFAFCA00AECE99 /* main.m in Sources */,
