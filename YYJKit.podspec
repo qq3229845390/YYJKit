@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "5.0"
   spec.source       = { :git => "https://github.com/qq3229845390/YYJKit.git", :tag => spec.version }
-  spec.source_files  = "YYJKit", "YYJKit/**/*.{h,m}"
+  spec.source_files  = "YYJKit/**/*"
   spec.requires_arc = true
 end
