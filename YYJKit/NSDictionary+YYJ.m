@@ -1,13 +1,13 @@
 //
-//  YYJKit.h
+//  NSDictionary+YYJ.m
 //  YYJKitDemo
 //
 //  Created by belltrip on 2020/8/21.
 //  Copyright © 2020 yangyingjun. All rights reserved.
 //
 
-#ifndef YYJKit_h
-#define YYJKit_h
+#import "NSDictionary+YYJ.h"
 
+@implementation NSDictionary (YYJ)
 
-#endif /* YYJKit_h */
+@end

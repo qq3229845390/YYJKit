@@ -1,16 +1,15 @@
 //
-//  UIView+YYJ.h
+//  NSArray+YYJ.h
 //  YYJKitDemo
 //
 //  Created by belltrip on 2020/8/21.
 //  Copyright © 2020 yangyingjun. All rights reserved.
 //
-
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (YYJ)
+@interface NSArray (YYJ)
 
 @end
 

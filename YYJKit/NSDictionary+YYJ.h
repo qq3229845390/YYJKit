@@ -1,5 +1,5 @@
 //
-//  NSString+YYJ.h
+//  NSDictionary+YYJ.h
 //  YYJKitDemo
 //
 //  Created by belltrip on 2020/8/21.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (YYJ)
+@interface NSDictionary (YYJ)
 
 @end
 

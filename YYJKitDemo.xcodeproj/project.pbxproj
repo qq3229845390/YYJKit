@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		413DE36524EFC1B600FEDA08 /* NSString+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DE36424EFC1B600FEDA08 /* NSString+YYJ.m */; };
+		413DE36824EFC95E00FEDA08 /* NSArray+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DE36724EFC95E00FEDA08 /* NSArray+YYJ.m */; };
+		413DE36B24EFC97100FEDA08 /* NSDictionary+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DE36A24EFC97100FEDA08 /* NSDictionary+YYJ.m */; };
 		416BC7A224EFAFCA00AECE99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7A124EFAFCA00AECE99 /* AppDelegate.m */; };
 		416BC7A524EFAFCA00AECE99 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7A424EFAFCA00AECE99 /* SceneDelegate.m */; };
 		416BC7A824EFAFCA00AECE99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7A724EFAFCA00AECE99 /* ViewController.m */; };
@@ -17,7 +18,6 @@
 		416BC7B324EFAFCA00AECE99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7B224EFAFCA00AECE99 /* main.m */; };
 		416BC7BD24EFAFCA00AECE99 /* YYJKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7BC24EFAFCA00AECE99 /* YYJKitDemoTests.m */; };
 		416BC7C824EFAFCA00AECE99 /* YYJKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7C724EFAFCA00AECE99 /* YYJKitDemoUITests.m */; };
-		416BC7D924EFB1D700AECE99 /* UIView+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7D824EFB1D700AECE99 /* UIView+YYJ.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		413DE36324EFC1B600FEDA08 /* NSString+YYJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YYJ.h"; sourceTree = "<group>"; };
-		413DE36424EFC1B600FEDA08 /* NSString+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYJ.m"; sourceTree = "<group>"; };
+		413DE36624EFC95E00FEDA08 /* NSArray+YYJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+YYJ.h"; sourceTree = "<group>"; };
+		413DE36724EFC95E00FEDA08 /* NSArray+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YYJ.m"; sourceTree = "<group>"; };
+		413DE36924EFC97100FEDA08 /* NSDictionary+YYJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YYJ.h"; sourceTree = "<group>"; };
+		413DE36A24EFC97100FEDA08 /* NSDictionary+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YYJ.m"; sourceTree = "<group>"; };
 		416BC79D24EFAFCA00AECE99 /* YYJKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYJKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		416BC7A024EFAFCA00AECE99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		416BC7A124EFAFCA00AECE99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,9 +60,6 @@
 		416BC7C324EFAFCA00AECE99 /* YYJKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYJKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		416BC7C724EFAFCA00AECE99 /* YYJKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYJKitDemoUITests.m; sourceTree = "<group>"; };
 		416BC7C924EFAFCA00AECE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		416BC7D624EFB1CD00AECE99 /* YYJKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJKit.h; sourceTree = "<group>"; };
-		416BC7D724EFB1D700AECE99 /* UIView+YYJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YYJ.h"; sourceTree = "<group>"; };
-		416BC7D824EFB1D700AECE99 /* UIView+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYJ.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,21 +147,12 @@
 		416BC7D524EFB1C000AECE99 /* YYJKit */ = {
 			isa = PBXGroup;
 			children = (
-				416BC7DA24EFB1F100AECE99 /* category */,
-				416BC7D624EFB1CD00AECE99 /* YYJKit.h */,
+				413DE36624EFC95E00FEDA08 /* NSArray+YYJ.h */,
+				413DE36724EFC95E00FEDA08 /* NSArray+YYJ.m */,
+				413DE36924EFC97100FEDA08 /* NSDictionary+YYJ.h */,
+				413DE36A24EFC97100FEDA08 /* NSDictionary+YYJ.m */,
 			);
 			path = YYJKit;
-			sourceTree = "<group>";
-		};
-		416BC7DA24EFB1F100AECE99 /* category */ = {
-			isa = PBXGroup;
-			children = (
-				416BC7D724EFB1D700AECE99 /* UIView+YYJ.h */,
-				416BC7D824EFB1D700AECE99 /* UIView+YYJ.m */,
-				413DE36324EFC1B600FEDA08 /* NSString+YYJ.h */,
-				413DE36424EFC1B600FEDA08 /* NSString+YYJ.m */,
-			);
-			path = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,12 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				413DE36524EFC1B600FEDA08 /* NSString+YYJ.m in Sources */,
 				416BC7A824EFAFCA00AECE99 /* ViewController.m in Sources */,
+				413DE36B24EFC97100FEDA08 /* NSDictionary+YYJ.m in Sources */,
 				416BC7A224EFAFCA00AECE99 /* AppDelegate.m in Sources */,
 				416BC7B324EFAFCA00AECE99 /* main.m in Sources */,
+				413DE36824EFC95E00FEDA08 /* NSArray+YYJ.m in Sources */,
 				416BC7A524EFAFCA00AECE99 /* SceneDelegate.m in Sources */,
-				416BC7D924EFB1D700AECE99 /* UIView+YYJ.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +467,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yangyingjun.YYJKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -496,7 +486,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yangyingjun.YYJKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
