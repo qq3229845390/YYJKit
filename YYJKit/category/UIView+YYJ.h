@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import "YYJMacro.h"
 
 @interface UIView (YYJ)
 
+YYJStatementProperty(UIView, CGRect, frame)
+YYJStatementProperty(UIView, BOOL, userInteractionEnabled)
+YYJStatementProperty(UIView, NSInteger, tag)
+
+
+
 @end
 
-NS_ASSUME_NONNULL_END

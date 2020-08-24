@@ -9,5 +9,8 @@
 #ifndef YYJKit_h
 #define YYJKit_h
 
+#import "YYJMacro.h"
+
+#import "UIView+YYJ.h"
 
 #endif /* YYJKit_h */

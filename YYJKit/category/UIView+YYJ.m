@@ -10,4 +10,16 @@
 
 @implementation UIView (YYJ)
 
+YYJImplementationProperty(UIView, CGRect, frame)
+YYJImplementationProperty(UIView, BOOL, userInteractionEnabled)
+YYJImplementationProperty(UIView, NSInteger, tag)
+
+
+- (UIView *(^)(CGFloat, CGFloat, CGFloat, CGFloat))yyj_frames {
+    return ^(CGFloat x, CGFloat y, CGFloat w, CGFloat h) {
+        self.frame = CGRectMake(x, y, w, h);
+        return self;
+    };
+}
+
 @end

@@ -7,16 +7,25 @@
 //
 
 #import "ViewController.h"
+#import "YYJKit.h"
 
 @interface ViewController ()
-
+/** <##> */
+@property (nonatomic, retain) NSString *age;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+
+    self.view
+    .yyj_frames(0,0,100,100)
+    .yyj_userInteractionEnabled(YES)
+    .yyj_tag(10);
+    
+
 }
 
 

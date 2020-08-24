@@ -70,6 +70,9 @@
 		41A412F824EFF69200B9C20E /* UIButton+YYJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+YYJ.h"; sourceTree = "<group>"; };
 		41A412F924EFF69200B9C20E /* UIButton+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YYJ.m"; sourceTree = "<group>"; };
 		41A412FC24EFF6FF00B9C20E /* YYJKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJKit.h; sourceTree = "<group>"; };
+		72D4997024F1A4BC007142C2 /* YYJConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJConstant.h; sourceTree = "<group>"; };
+		72D4997124F1A4D2007142C2 /* YYJDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJDefine.h; sourceTree = "<group>"; };
+		72D4997224F1A6D8007142C2 /* YYJMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,7 @@
 			children = (
 				41A412FC24EFF6FF00B9C20E /* YYJKit.h */,
 				41A412FB24EFF6E000B9C20E /* category */,
+				72D4996F24F1A429007142C2 /* gloab */,
 			);
 			path = YYJKit;
 			sourceTree = "<group>";
@@ -178,6 +182,16 @@
 				41A412F924EFF69200B9C20E /* UIButton+YYJ.m */,
 			);
 			path = category;
+			sourceTree = "<group>";
+		};
+		72D4996F24F1A429007142C2 /* gloab */ = {
+			isa = PBXGroup;
+			children = (
+				72D4997024F1A4BC007142C2 /* YYJConstant.h */,
+				72D4997124F1A4D2007142C2 /* YYJDefine.h */,
+				72D4997224F1A6D8007142C2 /* YYJMacro.h */,
+			);
+			path = gloab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
