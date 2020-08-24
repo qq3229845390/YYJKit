@@ -10,4 +10,12 @@
 #define YYJDefine_h
 
 
+typedef NS_ENUM(NSInteger, YYJSwipDirection) {
+    Up    = UISwipeGestureRecognizerDirectionUp,
+    Down  = UISwipeGestureRecognizerDirectionDown,
+    Left  = UISwipeGestureRecognizerDirectionLeft,
+    Right = UISwipeGestureRecognizerDirectionRight,
+};
+
+
 #endif /* YYJDefine_h */

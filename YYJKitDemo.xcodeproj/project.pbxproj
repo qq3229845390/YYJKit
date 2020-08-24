@@ -21,6 +21,7 @@
 		416BC7C824EFAFCA00AECE99 /* YYJKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC7C724EFAFCA00AECE99 /* YYJKitDemoUITests.m */; };
 		41A412F724EFF67100B9C20E /* UIView+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A412F624EFF67100B9C20E /* UIView+YYJ.m */; };
 		41A412FA24EFF69200B9C20E /* UIButton+YYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A412F924EFF69200B9C20E /* UIButton+YYJ.m */; };
+		41CD952724F36D2A00ABF5FC /* YYJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CD952624F36D2A00ABF5FC /* YYJUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		41A412F824EFF69200B9C20E /* UIButton+YYJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+YYJ.h"; sourceTree = "<group>"; };
 		41A412F924EFF69200B9C20E /* UIButton+YYJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YYJ.m"; sourceTree = "<group>"; };
 		41A412FC24EFF6FF00B9C20E /* YYJKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJKit.h; sourceTree = "<group>"; };
+		41CD952524F36D2A00ABF5FC /* YYJUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJUtil.h; sourceTree = "<group>"; };
+		41CD952624F36D2A00ABF5FC /* YYJUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYJUtil.m; sourceTree = "<group>"; };
 		72D4997024F1A4BC007142C2 /* YYJConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJConstant.h; sourceTree = "<group>"; };
 		72D4997124F1A4D2007142C2 /* YYJDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJDefine.h; sourceTree = "<group>"; };
 		72D4997224F1A6D8007142C2 /* YYJMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYJMacro.h; sourceTree = "<group>"; };
@@ -190,6 +193,8 @@
 				72D4997024F1A4BC007142C2 /* YYJConstant.h */,
 				72D4997124F1A4D2007142C2 /* YYJDefine.h */,
 				72D4997224F1A6D8007142C2 /* YYJMacro.h */,
+				41CD952524F36D2A00ABF5FC /* YYJUtil.h */,
+				41CD952624F36D2A00ABF5FC /* YYJUtil.m */,
 			);
 			path = gloab;
 			sourceTree = "<group>";
@@ -332,6 +337,7 @@
 				413DE36E24EFCEEA00FEDA08 /* UILabel+YYJ.m in Sources */,
 				413DE36824EFC95E00FEDA08 /* NSArray+YYJ.m in Sources */,
 				416BC7A524EFAFCA00AECE99 /* SceneDelegate.m in Sources */,
+				41CD952724F36D2A00ABF5FC /* YYJUtil.m in Sources */,
 				41A412F724EFF67100B9C20E /* UIView+YYJ.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
